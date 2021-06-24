@@ -21,7 +21,7 @@ detect_distro() {
 }
 
 pause() {
-    read -n1 -r -p "Press any key to continue..." key
+    read -n1 -r -p "Press enter key to continue..." key
 }
 banner() {
     clear
@@ -99,18 +99,19 @@ else
     echo .
     install_deps
     echo This Script Was Made By SpeedX > .update
+    echo This Script original was SpeedX recoded by IHs hacker > .update
     echo 'Requirements Installed....'
     pause
 fi
 while :
 do
     banner
-    echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
+    echo -e "\e[4;31m Please Read Instruction Carefully after use !!! \e[0m"
     echo " "
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
-    echo "Press 3 To  Start MAIL Bomber (Not Yet Available)"
-    echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
+    echo "Press 3 To  Start MAIL Bomber ( Available soon !!)"
+    echo "Press 4 To  Update (Works On Linux  Linux Emulators) "
     echo "Press 5 To  Exit "
     read ch
     clear
